@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      * {
+        border: 1px solid black;
+      }
+      footer ul > li > span {
+        font-weight: 800;
+      }
+      .footer-links li {
+        border-bottom: 1px solid white;
+      }
+    </style>
+  </head>
+  <body class="bg-[#5799B3]">
+    <nav class="h-[105px] bg-[#ADD8E6] grid grid-flow-col shadow-md">
+      <div>
+        <img
+          class="ml-[140px] pt-5"
+          src="https://www.dolphincoveja.com/Content/src/logo.png"
+          alt=""
+          width="140"
+          height="70"
+        />
+      </div>
+    </nav>
+
+    <div class="h-screen">
+      <table class="border-black border">
+        <tr>
+          <th>Voucher #</th>
+          <th>Date:</th>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+      <div>
+        <button class="bg-blue-400">Add a voucher</button>
+        <input type="text" placeholder="voucher#" />
+        <input type="date" />
+      </div>
+      <div>
+        <button class="bg-red-600">Remove Voucher</button>
+        <button class="bg-yellow-400 px-3 py-5">Edit Voucher</button>
+        <input type="text" placeholder="New Voucher " />
+        <input type="date" placeholder="New Date " />
+      </div>
+    </div>
+
+    <footer class="grid grid-cols-2 px-24 py-14 bg-[#162D6C] text-white">
+      <div class="w-[600px]">
+        <ul class="footer-links">
+          <li><a href="">Information</a></li>
+          <li><a href="">News</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Investor Relations</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms and conditions</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>CONTACT US</p>
+        <p class="text-2xl">1-877-344-3385</p>
+
+        <ul>
+          <li><span> Canada </span> 1-866-793-1905</li>
+          <li><span> United Kingdom </span> 0-800-680-0420</li>
+          <li><span>Mexico</span> 01-800-727-5391</li>
+          <li><span> Dominican Republic </span> 1-888-751-9005</li>
+          <li><span>United States</span> 1-866-393-5158</li>
+        </ul>
+
+        <p class="underline">Contact Us</p>
+        <p>PARTNERS:</p>
+        <br />
+        <div class="flex">
+          <div>
+            <img
+              src=" https://www.dolphincoveja.com/Content/src/dd-logo.png"
+              alt=""
+            />
+          </div>
+          <div></div>
+          <img
+            class="[bg-[#ADD8E6]"
+            src="https://www.dolphincoveja.com/Content/src/dc-logo.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
